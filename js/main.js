@@ -7,17 +7,6 @@
 (function($) {
 	'use strict';
 
-	/*---------------------------------------------------- */
-	/* Preloader
-	------------------------------------------------------ */
-	// $(window).load(function() {
-	// 	// will first fade out the loading animation
-	// 	$('#loader').fadeOut('slow', function() {
-	// 		// will fade out the whole DIV that covers the website.
-	// 		$('#preloader').delay(300).fadeOut('slow');
-	// 	});
-	// });
-
 	/*----------------------------------------------------*/
 	/* Flexslider
   	/*----------------------------------------------------*/
@@ -56,18 +45,6 @@
 					.addClass('animated fadeInUp show');
 			}
 		});
-
-		// $('#testimonial-slider').flexslider({
-		// 	namespace: 'flex-',
-		// 	controlsContainer: '',
-		// 	animation: 'slide',
-		// 	controlNav: true,
-		// 	directionNav: false,
-		// 	smoothHeight: true,
-		// 	slideshowSpeed: 7000,
-		// 	animationSpeed: 600,
-		// 	randomize: false
-		// });
 	});
 
 	/*----------------------------------------------------*/
@@ -111,14 +88,6 @@
 
 		offset: '25%'
 	});
-
-	/*----------------------------------------------------*/
-	/* FitText Settings
-  	------------------------------------------------------ */
-	// setTimeout(function() {
-	// 	$('#hero-slider h1').fitText(1, { minFontSize: '30px', maxFontSize: '49px' });
-	// }, 100);
-
 	/*-----------------------------------------------------*/
 	/* Mobile Menu
    ------------------------------------------------------ */
@@ -168,77 +137,6 @@
 			window.location.hash = target;
 		});
 	});
-
-	/*----------------------------------------------------*/
-	/*	Modal Popup
-	------------------------------------------------------*/
-	// $('.item-wrap a').magnificPopup({
-	// 	type: 'inline',
-	// 	fixedContentPos: false,
-	// 	removalDelay: 300,
-	// 	showCloseBtn: false,
-	// 	mainClass: 'mfp-fade'
-	// });
-
-	// $(document).on('click', '.popup-modal-dismiss', function(e) {
-	// 	e.preventDefault();
-	// 	$.magnificPopup.close();
-	// });
-
-	/*----------------------------------------------------*/
-	/*  Placeholder Plugin Settings
-	------------------------------------------------------ */
-	// $('input, textarea').placeholder()
-
-	/*----------------------------------------------------*/
-	/*	contact form
-	------------------------------------------------------*/
-
-	/* local validation */
-	// $('#contactForm').validate({
-
-	// 	/* submit via ajax */
-	// 	submitHandler: function(form) {
-
-	// 		var sLoader = $('#submit-loader');
-
-	// 		$.ajax({
-
-	// 	      type: "POST",
-	// 	      url: "inc/sendEmail.php",
-	// 	      data: $(form).serialize(),
-	// 	      beforeSend: function() {
-
-	// 	      	sLoader.fadeIn();
-
-	// 	      },
-	// 	      success: function(msg) {
-
-	//             // Message was sent
-	//             if (msg == 'OK') {
-	//             	sLoader.fadeOut();
-	//                $('#message-warning').hide();
-	//                $('#contactForm').fadeOut();
-	//                $('#message-success').fadeIn();
-	//             }
-	//             // There was an error
-	//             else {
-	//             	sLoader.fadeOut();
-	//                $('#message-warning').html(msg);
-	// 	            $('#message-warning').fadeIn();
-	//             }
-
-	// 	      },
-	// 	      error: function() {
-
-	// 	      	sLoader.fadeOut();
-	// 	      	$('#message-warning').html("Something went wrong. Please try again.");
-	// 	         $('#message-warning').fadeIn();
-
-	// 	      }
-
-	//       });
-	// 	}
-
-	// });
 })(jQuery);
+
+console.log('Elixir Tech team welcomes you to the console. Regards KS and DK');
