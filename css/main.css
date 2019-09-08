@@ -2637,3 +2637,9 @@ section p {
 #extc {
 	padding-bottom: 70px;
 }
+
+@media only screen and (max-width:768px) {
+	hr {
+		margin: 0 auto;
+	}
+}
