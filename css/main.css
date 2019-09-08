@@ -614,6 +614,7 @@ hr {
 @media only screen and (max-width:400px) {
 	.section-head [class*="column"] {
 		padding: 0;
+		padding-top: 70px; /*my edit*/
 	}
 
 }
